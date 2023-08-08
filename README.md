@@ -14,11 +14,33 @@
   cd SCNet
   ```
 - Download datasets: \
-  LTCC: [[GoogleDrive]](https://drive.google.com/file/d/1h-MIQvD1H3o4R4351wOAfnOM4ANXJyDR/view?usp=drive_link) \
-  PRCC: [[GoogleDrive]](https://drive.google.com/file/d/1SC-FK0VngHcdmwQwJtk8ZREMKXbQPNEi/view?usp=drive_link) \
-  Vc-Clothes: [[GoogleDrive]](https://drive.google.com/file/d/1O-aTGJT3PiWaKFQXvNsdkNsAZdnLiy3t/view?usp=drive_link) \
-  DeepChange: [[GoogleDrive]](https://drive.google.com/file/d/13H3cBnIhY44S3SNELpnlPI6DA6-t9jmR/view?usp=sharing)
+  LTCC: [[Offical Link]](https://naiq.github.io/LTCC_Perosn_ReID.html) \
+  PRCC: [[Offical Link]](https://www.isee-ai.cn/~yangqize/clothing.html) \
+  Vc-Clothes: [[Offical Link]](https://wanfb.github.io/dataset.html) \
+  DeepChange: [[Offical Link]](https://github.com/PengBoXiangShang/deepchange)
+
+- Download human parsing results: \
+  LTCC: [[GoogleDrive]](https://drive.google.com/file/d/1in9e7pvKDxLP2G2W1eKrX-sksgIrlP5j/view?usp=sharing) \
+  PRCC: [[GoogleDrive]](https://drive.google.com/file/d/1uAdP26CYBYM72E6x3CxM_yJb1As3z184/view?usp=sharing) \
+  Vc-Clothes: [[GoogleDrive]](https://drive.google.com/file/d/1pEQ059XGSiBYqe6iWqOrPNalV1s0aNzS/view?usp=sharing) \
+  DeepChange: [[GoogleDrive]](https://drive.google.com/file/d/1tD3_sIAqNxQPMCBtfdrLOAfdignDk6O0/view?usp=sharing)
   
+- Arrange datasets according to the following structure：
+```
+Dataset/
+├── LTCC_ReID/
+│   ├── ...
+│   └── processed
+├── PRCC/
+|   ├── rgb / processed
+│   └── sketch
+├── Vc-Clothes/
+|   ├── ...
+|   └── processed
+└── DeepChange/
+    ├── ...
+    └── processed
+```
 
 - Replace `_C.DATA.ROOT` and `_C.OUTPUT` in `configs/default_img.py`with your own `data root path` and `output path`, respectively.
 
