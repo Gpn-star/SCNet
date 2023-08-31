@@ -17,7 +17,7 @@ _C.DATA.HEIGHT = 384
 # Width of input image
 _C.DATA.WIDTH = 192
 # Batch size for training
-_C.DATA.TRAIN_BATCH = 64
+_C.DATA.TRAIN_BATCH = 32
 # Batch size for testing
 _C.DATA.TEST_BATCH = 128
 # The number of instances per identity for training sampler
