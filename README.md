@@ -58,6 +58,4 @@ If you find this code useful for your research, please cite our paper:
   year={2023}
 }
 ```
-### Contact Us
-If you have any doubt about this code, please send emails to: `guopeini@stu.pku.edu.cn`.
 
