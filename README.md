@@ -47,6 +47,8 @@ Dataset/
 
 - Run `script.sh`
 
+**We are improving the code and the latest version will be released soon.**
+
 ### Citation
 If you find this code useful for your research, please cite our paper:
 
